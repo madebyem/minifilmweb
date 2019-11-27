@@ -1,0 +1,42 @@
+.rest {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: flex-end;
+    align-self: flex-end;
+    justify-self: flex-end; /*none of those*/
+}
+
+
+
+.second{
+    display:flex;
+    justify-content: space-between;
+    padding:10px;
+    padding-left:13px;
+
+
+}
+
+
+
+a{
+    color:#2a3436
+}
+
+
+
+h3{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 235px;
+    white-space: nowrap;
+    text-align: center;
+
+}
+
+/*h3:hover{*/
+/*    overflow: visible;*/
+/*    white-space: normal;*/
+/*    height:auto;*/
+/*}*/

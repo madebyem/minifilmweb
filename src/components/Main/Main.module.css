@@ -1,0 +1,26 @@
+.search{
+    margin-top:40px;
+
+}
+.search .question {
+    margin-left:-110px;
+}
+
+
+.wtf{
+    width:400px;
+    background-color: #e9ebee;
+
+}
+
+.button{
+
+}
+
+.content{
+    display:flex;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+}

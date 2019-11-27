@@ -1,0 +1,16 @@
+.list{
+    display: flex;
+    flex-wrap:wrap;
+    overflow: hidden;
+}
+.favourites{
+    display:flex;
+    flex-direction: column;
+}
+
+h1{
+
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    margin-left:20px;
+}

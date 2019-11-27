@@ -1,0 +1,25 @@
+
+.moviedetails{
+    padding:50px;
+}
+.details{
+    display:flex;
+
+}
+
+.text{
+    margin-left:40px;
+    margin-top:20px;
+}
+.rating{
+    margin-left:20px;
+}
+
+.watchlist{
+margin-top:20px;
+    margin-left:33px;
+}
+
+.title{
+    margin-left:0px;
+}

@@ -1,0 +1,24 @@
+.list{
+    display: flex;
+    flex-wrap:wrap;
+    overflow: hidden;
+    box-sizing: content-box;
+    /*padding:20px;*/
+
+}
+
+.myMovies{
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+}
+h1{
+
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+margin-left:20px;}
+.sort{
+margin-left:20px;
+
+}
+
