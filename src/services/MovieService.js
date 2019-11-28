@@ -1,4 +1,5 @@
-const baseUrl = 'https://www.omdbapi.com/?apikey=f96787c4';
+import {movieApiKey} from './axios-request'
+const baseUrl = `https://www.omdbapi.com/?apikey=${movieApiKey}`;
 
 
 export class MovieService {
