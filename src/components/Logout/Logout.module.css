@@ -1,29 +1,12 @@
-.list {
+.loginform {
     display: flex;
-    flex-wrap: wrap;
-    overflow: hidden;
-}
-
-.favourites {
-    display: flex;
-    flex-direction: column;
-}
-
-h1 {
-    font-family: 'Amatic SC', cursive;
-    font-weight: bold;
-    margin-left: 1.25rem;
-}
-
-.pleaseLogin {
-    display: flex;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
 }
 
-.pleaseLogin h3 {
-    width: 100%;
+.gobacklink {
+    margin-top: 2rem;
 }
 
 .goback {

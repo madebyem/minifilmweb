@@ -1,0 +1,140 @@
+.loginwindow {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    top: 0;
+    overflow: scroll;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.loginform {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+
+h1 {
+    font-weight: normal;
+    font-size: 1.8rem;
+    margin-bottom: 0.75rem;
+    margin-top: 3rem;
+    text-align: center;
+
+}
+
+img {
+    width: 8rem;
+    margin-bottom: 1rem;
+}
+
+.form {
+    width: 50%;
+    padding: 3%;
+}
+
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.first {
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    position: relative;
+
+    /*margin-bottom: 1rem;*/
+    /*padding: 2rem 0;*/
+}
+
+.first label {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8rem;
+    font-weight: 600;
+    width: 80%;
+
+}
+
+.first input {
+    font-weight: normal;
+}
+
+
+.panel {
+    height: 2rem;
+    margin-bottom: 2rem;
+}
+
+.buttons {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.submit {
+    height: 2.5rem;
+    width: 6rem;
+    font-size: 0.9rem;
+    letter-spacing: 0;
+    cursor: pointer;
+    border: 1px solid gray;
+    background-color: transparent;
+
+
+}
+
+.submit:hover {
+    background-color: #bdcfe5;
+    transition: all 0.2s ease 0s;
+
+}
+
+
+.changeaction {
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+.changeaction:hover {
+    text-decoration: underline;
+}
+
+.error {
+    color: #FF0000;
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 5rem;
+    width: 100%;
+    box-sizing: border-box;
+    height: 1rem;
+    margin-top: -3rem;
+
+
+}
+
+.gobacklink {
+    margin-top: 2rem;
+}
+
+.goback {
+    height: 2.5rem;
+    width: 8.25rem;
+    font-size: 0.9rem;
+    letter-spacing: 0;
+    cursor: pointer;
+}

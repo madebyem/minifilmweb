@@ -1,25 +1,32 @@
 
-.moviedetails{
-    padding:50px;
+.moviedetails {
+    padding: 3.125rem;
 }
-.details{
-    display:flex;
+.moviedetails img{
+    width:auto;
+}
+
+.details {
+    display: flex;
 
 }
 
-.text{
-    margin-left:40px;
-    margin-top:20px;
-}
-.rating{
-    margin-left:20px;
+.text {
+    margin-left: 2.5rem;
+    margin-top: 1.25rem;
 }
 
-.watchlist{
-margin-top:20px;
-    margin-left:33px;
+.rating {
+    margin-left: 1.25rem;
 }
 
-.title{
-    margin-left:0px;
+.watchlist {
+    margin-top: 1.25rem;
+    margin-left: 2.0625rem;
+}
+
+.title {
+    margin-left: 0;
+    margin-bottom:3rem;
+    margin-top:0
 }

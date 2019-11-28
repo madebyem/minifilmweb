@@ -1,25 +1,23 @@
-import { applyMiddleware, compose, createStore } from "redux";
+import {applyMiddleware, compose, createStore} from "redux";
 import thunk from 'redux-thunk';
-import persistState from 'redux-localstorage';
 import reducer from "./reducer";
 
-
-
-function saveToLocalStorage(state){
+function saveToLocalStorage(state) {
   try {
-    const serializedState = JSON.stringify(state)
-    localStorage.setItem('state', serializedState)
+    const newState = JSON.stringify(state)
+    localStorage.setItem('state', newState)
   } catch (e) {
     console.log(e)
 
   }
 }
 
-function loadFromLocalStorage(){
-  try{
-    const serializedState=localStorage.getItem('state')
-    if (serializedState===null) return undefined
-    return JSON.parse(serializedState)
+function loadFromLocalStorage() {
+  try {
+    const serializedState = localStorage.getItem('state');
+    const state = JSON.parse(serializedState);
+    if (serializedState === null) return undefined
+    return state;
   } catch (e) {
     console.log(e)
     return undefined
@@ -27,8 +25,9 @@ function loadFromLocalStorage(){
   }
 }
 
-const persistedState=loadFromLocalStorage();
-export const store = createStore(
+
+const persistedState = loadFromLocalStorage();
+const store = createStore(
     reducer,
     persistedState,
     compose(
@@ -36,7 +35,8 @@ export const store = createStore(
         window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__(),
     )
 );
+store.subscribe(() => saveToLocalStorage(store.getState()));
 
+export default store;
 
-store.subscribe(()=>saveToLocalStorage(store.getState()))
 

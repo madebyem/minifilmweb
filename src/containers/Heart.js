@@ -1,12 +1,12 @@
-import { connect } from "react-redux";
+import {connect} from "react-redux";
 import Heart from "../components/Heart/Heart";
 import * as actions from '../redux/actions';
 
 
-
-const mapStateToProps = (state,props) => ({
-    favourites: state.moviesList,
-    likedMovie:props.likedMovie,
+const mapStateToProps = (state, props) => ({
+    favourites: state.moviesReducer.moviesList,
+    likedMovie: props.likedMovie,
+    isAuth: state.userReducer.isAuth,
 
 });
 

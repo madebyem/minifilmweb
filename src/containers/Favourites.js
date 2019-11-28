@@ -1,10 +1,10 @@
-import { connect } from "react-redux";
+import {connect} from "react-redux";
 import Favourites from "../components/Favourites/Favourites";
-import * as actions from '../redux/actions';
 
 
 const mapStateToProps = (state) => ({
-    favourites: Object.values(state.moviesList).filter((movie)=> movie.liked===true)
+    favourites: Object.values(state.moviesReducer.moviesList).filter((movie) => movie.liked === true),
+    isAuth: state.userReducer.isAuth,
 
 });
 

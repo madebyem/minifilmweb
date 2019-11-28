@@ -3,11 +3,12 @@
 .likebutton {
     display: inline-block;
     position: relative;
-    font-size: 16px;
+    font-size: 1rem;
     cursor: pointer;
-    margin-top:11px;
-    margin-left:20px;
+    margin-top: 0.6875rem;
+    margin-left: 1.25rem;
 }
+
 .likebutton::before {
     font-size: 3em;
     color: #4c545d;
@@ -18,6 +19,7 @@
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
+
 .likebutton::after {
     font-size: 3em;
     color: #ff3252;
@@ -31,7 +33,13 @@
     transition: transform 0.2s;
     transition: transform 0.2s, -webkit-transform 0.2s;
 }
+
 .likebutton.liked::after {
     -webkit-transform: translate(-50%, -50%) scale(1.1);
     transform: translate(-50%, -50%) scale(1.1);
+}
+
+
+.likebutton:disabled:after, .likebutton.liked:disabled:after{
+    color: #4c545d;
 }

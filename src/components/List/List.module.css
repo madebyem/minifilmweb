@@ -1,9 +1,8 @@
-.list{
+.list {
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     overflow: hidden;
     box-sizing: content-box;
-    padding:20px;
-    /*max-width: 1020px; !* nie moge tego zrobic zeby bylo dynamicznie :D*!*/
+    padding: 1.25rem;
 }
 

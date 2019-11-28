@@ -1,19 +1,19 @@
-import { connect } from "react-redux";
+import {connect} from "react-redux";
 import AddToWatch from "../components/AddToWatch/AddToWatch";
 import * as actions from '../redux/actions';
 
 
-
-const mapStateToProps = (state,props) => ({
-    watchlist: state.moviesList,
-    movieToWatch:props.movieToWatch,
-    toWatch:props.toWatch,
+const mapStateToProps = (state, props) => ({
+    watchlist: state.moviesReducer.moviesList,
+    movieToWatch: props.movieToWatch,
+    toWatch: props.toWatch,
+    isAuth: state.userReducer.isAuth,
 });
 
 const mapDispatch = ({
     addWatchlistAction: actions.addWatchlistAction,
     likeAction: actions.likeAction,
-    watchedAction:actions.watchedAction,
+    watchedAction: actions.watchedAction,
     rate: actions.rateAction,
 
 });

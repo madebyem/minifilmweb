@@ -1,22 +1,47 @@
-.list{
+.list {
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     overflow: hidden;
     box-sizing: content-box;
-    /*padding:20px;*/
-
-
 }
 
-.title{
+.title {
 
     font-family: 'Amatic SC', cursive;
     font-weight: bold;
-    margin-left:20px;
+    margin-left: 20px;
 }
-.container{
-    display:flex;
+
+.container {
+    display: flex;
     flex-direction: column;
     align-content: center;
 
+}
+
+.pleaseLogin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pleaseLogin h3 {
+    width: 100%;
+}
+
+.goback {
+    border: 1px solid gray;
+    color: gray;
+    height: 2.5rem;
+    width: 8.25rem;
+    font-size: 0.9rem;
+    letter-spacing: 0;
+    cursor: pointer;
+}
+
+.goback:hover {
+    transition: all 0.2s ease 0s;
+    background: #bdcfe5;
+    color: black;
 }
