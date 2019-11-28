@@ -1,4 +1,4 @@
-const baseUrl = 'http://www.omdbapi.com/?apikey=f96787c4';
+const baseUrl = 'https://www.omdbapi.com/?apikey=f96787c4';
 
 
 export class MovieService {
