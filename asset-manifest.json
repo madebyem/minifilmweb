@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/minifilmweb/static/css/main.f638995e.chunk.css",
-    "main.js": "/minifilmweb/static/js/main.7e29769c.chunk.js",
-    "main.js.map": "/minifilmweb/static/js/main.7e29769c.chunk.js.map",
+    "main.js": "/minifilmweb/static/js/main.55cb5ac8.chunk.js",
+    "main.js.map": "/minifilmweb/static/js/main.55cb5ac8.chunk.js.map",
     "runtime-main.js": "/minifilmweb/static/js/runtime-main.b9b4b129.js",
     "runtime-main.js.map": "/minifilmweb/static/js/runtime-main.b9b4b129.js.map",
     "static/js/2.fec8db11.chunk.js": "/minifilmweb/static/js/2.fec8db11.chunk.js",
     "static/js/2.fec8db11.chunk.js.map": "/minifilmweb/static/js/2.fec8db11.chunk.js.map",
     "index.html": "/minifilmweb/index.html",
-    "precache-manifest.d1e7a6fd59649dc786f3ba54c595597f.js": "/minifilmweb/precache-manifest.d1e7a6fd59649dc786f3ba54c595597f.js",
+    "precache-manifest.8e9c517e6ccbcadc8497c8f5585dcbe0.js": "/minifilmweb/precache-manifest.8e9c517e6ccbcadc8497c8f5585dcbe0.js",
     "service-worker.js": "/minifilmweb/service-worker.js",
     "static/css/main.f638995e.chunk.css.map": "/minifilmweb/static/css/main.f638995e.chunk.css.map"
   }
