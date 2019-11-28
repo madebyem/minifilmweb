@@ -10,6 +10,8 @@ Functionalities:
 The project is a mock-up of the service, as it runs on local storage and conditionally renders content for authenticated users.<br />
 The film database comes from IMBD open API - http://www.omdbapi.com/ <br />
 The tools that were used in the project: React, React Router, CSS (Modules), Redux, local storage, axios, Firebase, Material UI
+<br /> <br />
+The project is in the process of further development and correction.
 
 
 
