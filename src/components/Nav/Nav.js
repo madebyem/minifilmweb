@@ -9,12 +9,20 @@ import FavoriteIcon from '@material-ui/icons/Favorite';
 import MovieIcon from '@material-ui/icons/Movie';
 import PlaylistAddCheckIcon from '@material-ui/icons/PlaylistAddCheck';
 import {Link} from "react-router-dom";
+import MenuListComposition from "../ToggleMenu/ToggleMenu";
 
 const Newtypo = withStyles(theme => ({
     root: {
         fontFamily: 'Special Elite',
         fontStyle: 'cursive',
         fontSize: '2rem',
+        [theme.breakpoints.down(670)]: {
+            fontSize:'1.75rem'
+        },
+        [theme.breakpoints.down(365)]: {
+            fontSize:'1.25rem'
+        }
+
 
     },
 }))(Typography);
@@ -22,7 +30,12 @@ const Newtypo = withStyles(theme => ({
 const NewNav = withStyles(theme => ({
     root: {
         backgroundColor: 'transparent',
-        paddingTop: 0
+        paddingTop: 0,
+        [theme.breakpoints.down(620)]: {
+            display:'none'
+        },
+
+
 
     },
 }))(BottomNavigation);
@@ -35,11 +48,15 @@ const NewNavAc = withStyles(theme => ({
         width: '6.25rem',
         marginTop: '-0.5rem',
         opacity: '1',
-
+        [theme.breakpoints.down(750)]: {
+            marginLeft:0,
+            marginRight:0,
+        },
 
         '&:hover': {
             border: '1px solid #708090',
-        }
+        },
+
     },
 
 }))(BottomNavigationAction);
@@ -47,6 +64,7 @@ const NewNavAc = withStyles(theme => ({
 class Nav extends React.Component {
     render() {
         return (
+            <div className={classes.container}>
             <nav className={classes.nav}>
                 <Link to="/" style={{color: "#353638", textDecoration: "none", cursor: "hand"}}>
                     <div className={classes.title}>
@@ -74,8 +92,12 @@ class Nav extends React.Component {
                         <Link to="/Watchlist" styles={{display: 'flex', flexDirection: 'column'}}><NewNavAc
                             showLabel={true} label="Watchlist" icon={<PlaylistAddCheckIcon/>}/></Link>
                     </NewNav>
+                    <div className={classes.sideMenu}>
+                    <MenuListComposition />
+                    </div>
                 </div>
             </nav>
+            </div>
         )
     }
 }

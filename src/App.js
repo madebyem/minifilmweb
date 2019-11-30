@@ -28,7 +28,7 @@ class App extends React.Component {
             <React.Fragment>
                 <CssBaseline/>
                 <Container style={{maxWidth: "100vw"}}>
-                    <Typography component="div" style={{backgroundColor: 'BDCCE8', height: 'auto', minHeight: '100vh'}}>
+                    <Typography component="div" style={{display:'flex', flexDirection:'column', alignItems:'center',backgroundColor: 'BDCCE8', height: 'auto', minHeight: '100vh'}}>
                         <Provider store={store}>
                             <HashRouter>
                                 <Nav auth={this.props.user.isAuth} user={this.props.user.email}/>

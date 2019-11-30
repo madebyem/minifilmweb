@@ -1,21 +1,27 @@
 .icon {
     margin-right: 1.25rem;
 }
-
-.nav {
-    justify-content: space-between;
+.container{
+    width:100vw;
     display: flex;
+    justify-content: center;
     background: rgb(157, 155, 205);
     background: linear-gradient(125deg, rgba(157, 155, 205, 1) 0%, rgba(155, 179, 205, 1) 61%, rgba(201, 218, 237, 1) 100%);
+}
+.nav {
+    width: 90%;
+    justify-content: space-between;
+    display: flex;
+    /*background: rgb(157, 155, 205);*/
+    /*background: linear-gradient(125deg, rgba(157, 155, 205, 1) 0%, rgba(155, 179, 205, 1) 61%, rgba(201, 218, 237, 1) 100%);*/
     box-sizing: border-box;
 }
 
 .title {
-    margin-left: 2rem;
+    /*margin-left: 2rem;*/
     height: 100%;
     display: flex;
     align-items: center;
-
 }
 
 .links {
@@ -47,7 +53,15 @@
     padding: 0.25rem 0.5rem;
     border: 1px solid transparent;
 }
-
+.sideMenu{display:none}
 .loginLink:hover {
     border: 1px solid #708090;
 }
+@media (max-width: 770px) {
+    .nav{width:95%;}
+}
+@media (max-width: 620px) {
+    .login{display:none;}
+    .sideMenu{display:flex}
+}
+
