@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/minifilmweb/static/css/main.f638995e.chunk.css",
-    "main.js": "/minifilmweb/static/js/main.231a8ea4.chunk.js",
-    "main.js.map": "/minifilmweb/static/js/main.231a8ea4.chunk.js.map",
+    "main.css": "/minifilmweb/static/css/main.6afdcfc6.chunk.css",
+    "main.js": "/minifilmweb/static/js/main.32a22ddb.chunk.js",
+    "main.js.map": "/minifilmweb/static/js/main.32a22ddb.chunk.js.map",
     "runtime-main.js": "/minifilmweb/static/js/runtime-main.b9b4b129.js",
     "runtime-main.js.map": "/minifilmweb/static/js/runtime-main.b9b4b129.js.map",
-    "static/js/2.aab05839.chunk.js": "/minifilmweb/static/js/2.aab05839.chunk.js",
-    "static/js/2.aab05839.chunk.js.map": "/minifilmweb/static/js/2.aab05839.chunk.js.map",
+    "static/js/2.35507ed8.chunk.js": "/minifilmweb/static/js/2.35507ed8.chunk.js",
+    "static/js/2.35507ed8.chunk.js.map": "/minifilmweb/static/js/2.35507ed8.chunk.js.map",
     "index.html": "/minifilmweb/index.html",
-    "precache-manifest.abe4314a60ffbb579728aeaffead8732.js": "/minifilmweb/precache-manifest.abe4314a60ffbb579728aeaffead8732.js",
+    "precache-manifest.a39028f75fa454e69853bffff0b0282d.js": "/minifilmweb/precache-manifest.a39028f75fa454e69853bffff0b0282d.js",
     "service-worker.js": "/minifilmweb/service-worker.js",
-    "static/css/main.f638995e.chunk.css.map": "/minifilmweb/static/css/main.f638995e.chunk.css.map"
+    "static/css/main.6afdcfc6.chunk.css.map": "/minifilmweb/static/css/main.6afdcfc6.chunk.css.map"
   }
 }
