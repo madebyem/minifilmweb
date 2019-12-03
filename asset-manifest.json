@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/minifilmweb/static/css/main.6afdcfc6.chunk.css",
-    "main.js": "/minifilmweb/static/js/main.32a22ddb.chunk.js",
-    "main.js.map": "/minifilmweb/static/js/main.32a22ddb.chunk.js.map",
+    "main.css": "/minifilmweb/static/css/main.276c4310.chunk.css",
+    "main.js": "/minifilmweb/static/js/main.704a81f7.chunk.js",
+    "main.js.map": "/minifilmweb/static/js/main.704a81f7.chunk.js.map",
     "runtime-main.js": "/minifilmweb/static/js/runtime-main.b9b4b129.js",
     "runtime-main.js.map": "/minifilmweb/static/js/runtime-main.b9b4b129.js.map",
-    "static/js/2.35507ed8.chunk.js": "/minifilmweb/static/js/2.35507ed8.chunk.js",
-    "static/js/2.35507ed8.chunk.js.map": "/minifilmweb/static/js/2.35507ed8.chunk.js.map",
+    "static/js/2.ff855041.chunk.js": "/minifilmweb/static/js/2.ff855041.chunk.js",
+    "static/js/2.ff855041.chunk.js.map": "/minifilmweb/static/js/2.ff855041.chunk.js.map",
     "index.html": "/minifilmweb/index.html",
-    "precache-manifest.a39028f75fa454e69853bffff0b0282d.js": "/minifilmweb/precache-manifest.a39028f75fa454e69853bffff0b0282d.js",
+    "precache-manifest.e21788c08380245c0e08c585d74a5465.js": "/minifilmweb/precache-manifest.e21788c08380245c0e08c585d74a5465.js",
     "service-worker.js": "/minifilmweb/service-worker.js",
-    "static/css/main.6afdcfc6.chunk.css.map": "/minifilmweb/static/css/main.6afdcfc6.chunk.css.map"
+    "static/css/main.276c4310.chunk.css.map": "/minifilmweb/static/css/main.276c4310.chunk.css.map",
+    "static/media/Login.module.css": "/minifilmweb/static/media/camera-147680_640.7a9335d8.png",
+    "static/media/Mains.module.css": "/minifilmweb/static/media/hiclipart.com (2).3b8a4a5c.png"
   }
 }
