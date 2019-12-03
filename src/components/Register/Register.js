@@ -92,7 +92,7 @@ export default class Register extends React.Component {
     render() {
         return (
             <div className={classes.loginwindow}>
-
+                <div className={classes.background}></div>
                 <div className={classes.loginform}>
                     <h1>Register</h1>
                     <div className={classes.form} style={{height: '60%'}}>

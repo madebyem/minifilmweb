@@ -9,6 +9,7 @@ class Watchlist extends React.Component {
             return null;
         }
         return (
+
             <div className={classes.container}>
                 <div>
                     <h1 className={classes.title}> My Watchlist</h1>

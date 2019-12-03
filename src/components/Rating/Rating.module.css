@@ -55,3 +55,9 @@
 .rating:disabled:not(:checked) > label:hover ~ label {
     color: #ddd;
 }
+
+@media (max-width: 800px) {
+    .rating{
+        padding-left: 0;
+    }
+}

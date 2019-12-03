@@ -1,4 +1,3 @@
-
 .moviedetails {
     padding: 3.125rem;
 }
@@ -14,6 +13,7 @@
 .text {
     margin-left: 2.5rem;
     margin-top: 1.25rem;
+
 }
 
 .rating {
@@ -29,4 +29,49 @@
     margin-left: 0;
     margin-bottom:3rem;
     margin-top:0
+}
+
+@media (max-width: 800px) {
+    .moviedetails img{
+       width:10rem;
+    }
+    .details{
+        flex-direction: column;
+    }
+    .rating,.watchlist,.text{
+        margin-left: 0;
+    }
+}
+@media (max-width: 800px) {
+    .moviedetails img{
+        width:10rem;
+    }
+    .details{
+        flex-direction: column;
+    }
+    .rating,.watchlist,.text{
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 550px) {
+    .moviedetails img{
+        align-self: center;
+    }
+    .moviedetails{
+        padding:1.5rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .moviedetails img{
+        align-self: center;
+    }
+    .moviedetails{
+        padding:1rem;
+    }
+    .rating{
+        display: flex;
+        flex-wrap: wrap;
+    }
 }

@@ -7,6 +7,7 @@ class Favourites extends React.Component {
     render() {
         if (this.props.favourites !== undefined) {
             return (
+
                 <div className={classes.favourites}>
                     <h1>My favourite movies</h1>
                     {this.props.isAuth ? <div className={classes.list}>
@@ -21,8 +22,8 @@ class Favourites extends React.Component {
                             </Link>
                         </div>
                     }</div>
-            )}
-        else {
+            )
+        } else {
             return null;
         }
     }

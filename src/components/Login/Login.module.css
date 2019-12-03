@@ -8,7 +8,18 @@
     align-items: center;
     justify-content: center;
 }
-
+.background{
+    width: 100%;
+    height: 100%;
+    background:url('../../assets/camera-147680_640.png');
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position: right bottom;
+    opacity:0.1;
+    min-height: 100vh;
+    position: absolute;
+    z-index: -1;
+}
 
 .loginform {
     width: 100%;
@@ -56,8 +67,6 @@ form {
     width: 70%;
     position: relative;
 
-    /*margin-bottom: 1rem;*/
-    /*padding: 2rem 0;*/
 }
 
 .first label {
@@ -146,7 +155,11 @@ form {
 
 @media (max-width: 550px) {
     .form{width:80vw}
+    .background{
+        display: none;
+    }
 }
 @media (max-width: 450px) {
     .first{width:90%}
+
 }

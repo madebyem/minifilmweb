@@ -88,6 +88,7 @@ export class Login extends React.Component {
         }
         return (
             <div className={classes.loginwindow}>
+                <div className={classes.background}></div>
                 {authRedirect}
                 <h1>Log in</h1>
                 <div className={classes.form}>

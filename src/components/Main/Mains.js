@@ -24,7 +24,7 @@ class Main extends React.Component {
 
     render() {
         return (
-            <>
+            <><div className={classes.background}></div>
                 <div className={classes.search}>
                     <Typography className={classes.question} variant="h5" align="center" color="textSecondary" paragraph>
                         What are you looking for?
