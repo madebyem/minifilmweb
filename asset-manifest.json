@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/minifilmweb/static/css/main.276c4310.chunk.css",
-    "main.js": "/minifilmweb/static/js/main.704a81f7.chunk.js",
-    "main.js.map": "/minifilmweb/static/js/main.704a81f7.chunk.js.map",
+    "main.css": "/minifilmweb/static/css/main.ea324908.chunk.css",
+    "main.js": "/minifilmweb/static/js/main.6d918503.chunk.js",
+    "main.js.map": "/minifilmweb/static/js/main.6d918503.chunk.js.map",
     "runtime-main.js": "/minifilmweb/static/js/runtime-main.b9b4b129.js",
     "runtime-main.js.map": "/minifilmweb/static/js/runtime-main.b9b4b129.js.map",
     "static/js/2.ff855041.chunk.js": "/minifilmweb/static/js/2.ff855041.chunk.js",
     "static/js/2.ff855041.chunk.js.map": "/minifilmweb/static/js/2.ff855041.chunk.js.map",
     "index.html": "/minifilmweb/index.html",
-    "precache-manifest.e21788c08380245c0e08c585d74a5465.js": "/minifilmweb/precache-manifest.e21788c08380245c0e08c585d74a5465.js",
+    "precache-manifest.e3ce483b918f509e45f4654fd395efb0.js": "/minifilmweb/precache-manifest.e3ce483b918f509e45f4654fd395efb0.js",
     "service-worker.js": "/minifilmweb/service-worker.js",
-    "static/css/main.276c4310.chunk.css.map": "/minifilmweb/static/css/main.276c4310.chunk.css.map",
+    "static/css/main.ea324908.chunk.css.map": "/minifilmweb/static/css/main.ea324908.chunk.css.map",
     "static/media/Login.module.css": "/minifilmweb/static/media/camera-147680_640.7a9335d8.png",
     "static/media/Mains.module.css": "/minifilmweb/static/media/hiclipart.com (2).3b8a4a5c.png"
   }

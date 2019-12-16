@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9b5a32812dad6e375dbcbaa81066d874",
+    "revision": "958e2d73d278ba97b4d2cf0719ab673e",
     "url": "/minifilmweb/index.html"
   },
   {
-    "revision": "743f2cace19b66ea46ad",
-    "url": "/minifilmweb/static/css/main.276c4310.chunk.css"
+    "revision": "b1bce12f3305e51ae8cc",
+    "url": "/minifilmweb/static/css/main.ea324908.chunk.css"
   },
   {
     "revision": "6e0c192dac407c4b355a",
     "url": "/minifilmweb/static/js/2.ff855041.chunk.js"
   },
   {
-    "revision": "743f2cace19b66ea46ad",
-    "url": "/minifilmweb/static/js/main.704a81f7.chunk.js"
+    "revision": "b1bce12f3305e51ae8cc",
+    "url": "/minifilmweb/static/js/main.6d918503.chunk.js"
   },
   {
     "revision": "bdb1bf4061e653312679",
