@@ -95,7 +95,7 @@ export class Login extends React.Component {
                     <form onSubmit={this.handleLogin}>
                         <div className={classes.first}>
                             <label htmlFor="email">
-                                <TextField id="filled-basic" label="E-mail" variant="filled" type="e-mail" name="email"
+                                <TextField id="filled-basic1" label="E-mail" variant="filled" type="e-mail" name="email"
                                            onChange={(event) => this.handleUserInput(event)} value={this.state.email}/>
                                 <div className={classes.panel}
                                      style={{visibility: this.state.showWarnings ? 'visible' : 'hidden'}}>
@@ -103,7 +103,7 @@ export class Login extends React.Component {
                                 </div>
                             </label>
                             <label htmlFor="password">
-                                <TextField id="filled-basic" label="Password" variant="filled" type="password"
+                                <TextField id="filled-basic2" label="Password" variant="filled" type="password"
                                            name="password" onChange={(event) => this.handleUserInput(event)}
                                            value={this.state.password}/>
                                 <div className={classes.panel}

@@ -16,7 +16,7 @@ export class MovieService {
     searchByName(name) {
         const searchUrl = `${baseUrl}&s=${name}`;
         const moviesMap = {};
-        console.log('Main by name: ', searchUrl);
+        // console.log('Main by name: ', searchUrl);
 
         return fetch(searchUrl).then(
             resp => resp.json()

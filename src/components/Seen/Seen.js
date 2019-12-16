@@ -28,7 +28,7 @@ class Seen extends React.Component {
                     control={
                         <Checkbox
                             onChange={this.handleSeen}
-                            checked={this.props.seenMovie.seen&&this.props.isAuth|| false}
+                            checked={(this.props.seenMovie.seen&&this.props.isAuth)}
                             value="checked"
                             color="primary"
                             disabled={!this.props.isAuth}
